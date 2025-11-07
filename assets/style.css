@@ -1,0 +1,37 @@
+:root {
+  --thn-primary: #1f2937; /* gris oscuro elegante */
+  --thn-accent: #00c2a8; /* acento turquesa */
+}
+.bg-thn { background: var(--thn-primary); }
+.bg-thn-soft { background: #e9f7f5; }
+.btn-thn { background: var(--thn-accent); color: #062b2b; border: none; }
+.btn-thn:hover { background: #00a892; color: #062b2b; }
+
+.product-card { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.product-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+
+/* Pequeñas mejoras visuales */
+body { background: #f8fafc; }
+.card-title { min-height: 2.4rem; }
+
+/* Imágenes responsivas y recorte uniforme */
+.card-img-top {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1; /* ayuda a cuadrar cards en móviles */
+  object-fit: cover;
+}
+
+/* Ajustes móviles */
+@media (max-width: 576px) {
+  header .row .form-control { margin-bottom: 8px; }
+  .btn-thn, .btn { padding: 0.6rem 0.9rem; font-size: 1rem; }
+  .card .btn { font-size: 0.95rem; }
+}
+
+/* Mejorar tacto en controles */
+.form-check-input { width: 1.2rem; height: 1.2rem; }
+.form-control { min-height: 2.25rem; }
+
+/* Modal quick view */
+#quickViewModal img { width: 100%; height: auto; object-fit: cover; }

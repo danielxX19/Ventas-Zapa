@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p1",
+    "name": "THN Runner Pro",
+    "brand": "THN",
+    "category": "Running",
+    "price_soles": 289.9,
+    "stock": 12,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p2",
+    "name": "THN Street Classic",
+    "brand": "THN",
+    "category": "Casual",
+    "price_soles": 219.5,
+    "stock": 8,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p3",
+    "name": "Nike Air Tempo",
+    "brand": "Nike",
+    "category": "Running",
+    "price_soles": 399.0,
+    "stock": 5,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p4",
+    "name": "Adidas Court Jam",
+    "brand": "Adidas",
+    "category": "Basketball",
+    "price_soles": 359.0,
+    "stock": 0,
+    "status": "agotado",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p5",
+    "name": "Puma Urban Glide",
+    "brand": "Puma",
+    "category": "Casual",
+    "price_soles": 249.0,
+    "stock": 14,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p6",
+    "name": "THN Skate Nova",
+    "brand": "THN",
+    "category": "Skate",
+    "price_soles": 199.0,
+    "stock": 3,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p7",
+    "name": "Nike Court Vision",
+    "brand": "Nike",
+    "category": "Basketball",
+    "price_soles": 329.0,
+    "stock": 10,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  },
+  {
+    "id": "p8",
+    "name": "Adidas Daily 3.0",
+    "brand": "Adidas",
+    "category": "Casual",
+    "price_soles": 279.0,
+    "stock": 7,
+    "status": "disponible",
+    "image": "assets/placeholder.svg"
+  }
+]
